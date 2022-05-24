@@ -1,3 +1,4 @@
+
 print("Se mostrara los 100 numeros de la  serie fibonnaci ")
 while True: 
 
