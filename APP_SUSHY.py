@@ -1,4 +1,4 @@
-
+#Debe de validar el correo teniendo un @ pero no lo hice （︶^︶）
 respsalir = ""
 respsalir2 = ""
 def Salir():
