@@ -3,12 +3,12 @@ import os
 import time
 from random import sample
 
-# -----------------lISTAS--------------------------------------------------------------
+# ----------------- Creacion de lISTAS --------------------------------------------------------------
 lista = [i for i in range(1, 43)]
 loto = []
 cartolaUsuario = []
 hits = 0
-# -----------------MENU DEL LOTO-------------------------------------------------------
+# ----------------- MENU DEL LOTO -------------------------------------------------------
 os.system("cls")
 print("================================")
 print("***   BIENVENIDO AL LOTO  ***")
@@ -59,7 +59,7 @@ if opcion == "1":
             hits += 1
     print("Le has atinado a ", hits, "numeros")
     if hits == 4:
-        print("Has ganado un premio de $10.000")
+        print("Has ganado un premio de $50.000")
     elif hits == 5:
         print("Has ganado un premio de $100.000")
     elif hits == 6:
@@ -75,7 +75,7 @@ elif opcion == "2":
     print("Has seleccionado la  opcion 2 espere porfavor...")
     time.sleep(2)
     os.system("cls")
-    print("             *** JUEGO 1***")
+    print("             *** JUEGO 1 ***")
     print("""
     [1][2][3][4][5][6][7][8][9][10][11]
     [12][13][14][15][16][17][18][19][20][21]
@@ -117,7 +117,7 @@ elif opcion == "2":
                 hits += 1
             print("Le has atinado a", hits, "numeros\n")
         if hits == 4:
-            print("Has ganado un premio de $10.000")
+            print("Has ganado un premio de $50.000")
         elif hits == 5:
             print("Has ganado un premio de $100.000")
         elif hits == 6:
@@ -154,7 +154,7 @@ elif opcion == "2":
                 hits += 1
             print("Le has atinado a ", hits, "numeros\n")
         if hits == 4:
-            print("Has ganado un premio de $10.000")
+            print("Has ganado un premio de $50.000")
         elif hits == 5:
             print("Has ganado un premio de $100.000")
         elif hits == 6:
@@ -195,7 +195,7 @@ elif opcion == "2":
                 hits += 1
             print("Le has atinado a ", hits, "numeros\n")
         if hits == 4:
-            print("Has ganado un premio de $10.000")
+            print("Has ganado un premio de $50.000")
         elif hits == 5:
             print("Has ganado un premio de $100.000")
         elif hits == 6:
@@ -240,13 +240,13 @@ elif opcion == "2":
                 hits += 1
             print("Le has atinado a ", hits, "numeros\n")
         if hits == 4:
-            print("Has ganado un premio de $10.000")
+            print("Has ganado un premio de $50.000")
         elif hits == 5:
             print("Has ganado un premio de $100.000")
         elif hits == 6:
             print("Felicidades tienes el carton ganador, el premio es de 10 millones!!!!")
         else:
-            print("============= HAS PERDIDO EL LOTO======================")
+            print("============= HAS PERDIDO EL LOTO ======================")
 
     elif numero == "5":
         op = int(input("Elige tu primer numero:  "))
@@ -288,7 +288,7 @@ elif opcion == "2":
                 hits += 1
             print("Le has atinado a ", hits, "numeros\n")
         if hits == 4:
-            print("Has ganado un premio de $10.000")
+            print("Has ganado un premio de $50.000")
         elif hits == 5:
             print("Has ganado un premio de $100.000")
         elif hits == 6:
@@ -302,7 +302,7 @@ elif opcion == "3":
     print("Has seleccionado la  opcion 3 espere porfavor...")
     time.sleep(2)
     os.system("cls")
-    print("             *** JUEGO 1***")
+    print("             *** JUEGO 1 ***")
     print("""
     [1][2][3][4][5][6][7][8][9][10][11]
     [12][13][14][15][16][17][18][19][20][21]
@@ -311,7 +311,7 @@ elif opcion == "3":
     """)
     time.sleep(2)
     print("\n")
-    print("***ELIGE TODO LOS NUMEROS A JUGAR  ***")
+    print("*** ELIGE TODO LOS NUMEROS A JUGAR  ***")
     x = 1
     while x <= 6:
         num = int(input("Ingrese sus numeros: "))
@@ -337,7 +337,7 @@ elif opcion == "3":
         print("Le has atinado a ", hits, "numeros")
     print("\n")
     if hits == 4:
-        print("Has ganado un premio de $10.000")
+        print("Has ganado un premio de $50.000")
     elif hits == 5:
         print("Has ganado un premio de $100.000")
     elif hits == 6:
