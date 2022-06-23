@@ -1,5 +1,5 @@
-# coding: utf-8
-# Your code here!
+#La recursividad es una técnica muy empleada en la programación informática y consiste en que una función se llame a sí misma. 
+#El ejemplo clásico es la función que calcula el factorial de un número
 
 def sumatoria(n):
     if n == 1:
