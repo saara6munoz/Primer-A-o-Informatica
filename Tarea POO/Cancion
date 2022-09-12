@@ -1,0 +1,82 @@
+package tarea;
+
+
+public class Cancion {
+    private String titulo, artista, duracion;
+    private Boolean favorita, estadoDescarga;
+    
+    //Constructores
+    public Cancion() {
+    }
+
+    public Cancion(String titulo, String artista, String duracion, Boolean favorita, Boolean estadoDescarga) {
+        this.titulo = titulo;
+        this.artista = artista;
+        this.duracion = duracion;
+        this.favorita = favorita;
+        this.estadoDescarga = estadoDescarga;
+    }
+
+    public Cancion(String titulo, String artista, String duracion) {
+        this.titulo = titulo;
+        this.artista = artista;
+        this.duracion = duracion;
+    }
+    
+    //Getters y Setters
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getArtista() {
+        return artista;
+    }
+
+    public void setArtista(String artista) {
+        this.artista = artista;
+    }
+
+    public String getDuracion() {
+        return duracion;
+    }
+
+    public void setDuracion(String duracion) {
+        this.duracion = duracion;
+    }
+
+    public Boolean getFavorita() {
+        return favorita;
+    }
+
+    public void setFavorita(Boolean favorita) {
+        this.favorita = favorita;
+    }
+
+    public Boolean getEstadoDescarga() {
+        return estadoDescarga;
+    }
+
+    public void setEstadoDescarga(Boolean estadoDescarga) {
+        this.estadoDescarga = estadoDescarga;
+    }
+    //Customers 
+    public void print(){
+        System.out.println("Titulo: "+titulo);
+        System.out.println("Artista: "+artista);
+        System.out.println("Duración: "+duracion);
+    }
+    public void adelantar(){
+        System.out.println("La canción ha sido adelantada en 15 segundos");
+    }
+    
+    public void medirLarga(){
+        System.out.println("La canción es larga");
+    }
+    public void medirCorta(){
+        System.out.println("La canción es normal");
+    }
+}
